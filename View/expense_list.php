@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EMS Home</title>
+    <title>Expense List</title>
     <style>
         * {
             box-sizing: border-box;
@@ -44,7 +44,15 @@
             color: #555;
         }
 
-
+        .content {
+            margin: 20px auto;
+            padding: 20px;
+            width: 50%;
+            border: 2px solid #555;
+            border-radius: 10px;
+            height: fit-content;
+            min-height: 420px;
+        }
 
         .footer {
             background-color: #333;
@@ -69,7 +77,9 @@
             <a href="#">Contact</a>
         </div> -->
 
+        <div class="content">
 
+        </div>
 
         <div class="footer">
             <p>© 2023 Expense Management System. All rights reserved.</p>

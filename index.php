@@ -49,6 +49,7 @@
             flex-wrap: wrap;
             justify-content: space-around;
             margin: 20px;
+            min-height: 420px;
         }
 
         .card {
@@ -121,25 +122,25 @@
                 <!-- <img src="https://i.imgur.com/9vYX4Zm.jpg" alt="Receipts"> -->
                 <h3>Add Expense</h3>
                 <p>Record your expense into the system via form.</p>
-                <button>Add Expense</button>
+                <button onclick="location.href = 'View/add_expense.php'">Add Expense</button>
             </div>
             <div class="card">
                 <!-- <img src="https://i.imgur.com/6Q8LZx0.jpg" alt="Charts"> -->
                 <h3>Edit Expense</h3>
                 <p>You can edit an expense you have previously registered.</p>
-                <button>Edit Expense</button>
+                <button onclick="location.href = 'View/edit_expense.php'">Edit Expense</button>
             </div>
             <div class="card">
                 <!-- <img src="https://i.imgur.com/8QF0w9n.jpg" alt="Budget"> -->
                 <h3>Expense List</h3>
                 <p>Get a quick list of expenses you have recorded in the system.</p>
-                <button>Show List</button>
+                <button onclick="location.href = 'View/expense_list.php'">Show List</button>
             </div>
             <div class="card">
                 <!-- <img src="https://i.imgur.com/8QF0w9n.jpg" alt="Budget"> -->
                 <h3>Expense Report</h3>
                 <p>Generate a report of all recorded expenses in the database.</p>
-                <button>Generate Report</button>
+                <button onclick="location.href = 'View/expense_report.php'">Generate Report</button>
             </div>
         </div>
         <div class="footer">
