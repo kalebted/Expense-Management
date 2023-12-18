@@ -1,5 +1,6 @@
 <?php
-//include "\Controller\Controller.php";
+    // require "../Controller/Controller.php";
+    // $ControllerObject = new ExpenseController();
 ?>
 
 <!DOCTYPE html>
@@ -136,7 +137,7 @@
 
             <h1>Record Expense</h1>
 
-            <form action="Controller/Controller.php" method="POST">
+            <form action="../Controller/Controller.php" method="POST">
                 <label for="amount">Amount:</label>
                 <input type="number" id="amount" name="amount" required><br><br>
                 <label for="date">Date:</label>

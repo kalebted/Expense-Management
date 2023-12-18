@@ -1,7 +1,7 @@
 <?php
-    require 'Model/ExpenseModel.php';
+    require '../Model/ExpenseModel.php';
 
-    // $ExpenseObject = new ExpenseModel();
+    $ControllerObject = new ExpenseController();
 
     class ExpenseController{
 

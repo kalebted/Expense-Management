@@ -13,6 +13,7 @@
         {
             // Create a new connection
             $this->conn = new mysqli($this->servername, $this->username, $this->password, $this->dbname);
+            //$conn = new mysqli("localhost", "root", "", "expense_management");
 
             // Check connection
             if ($this->conn->connect_error) {
@@ -51,7 +52,7 @@
             // Prepare and execute MySQL statement to edit expense using ID
             $insertQuery = "UPDATE expenses SET amount = '?', date = '?', category_id = '?' WHERE id = '?' ";
             $stmt = $this->conn->prepare($insertQuery);
-            $stmt->bind_param("ssss", $amount, $date, $category_id, $id);
+            $stmt->bind_param("ssss", $amount, $date, $categoryId, $id);
             $stmt->execute();
             $stmt->close();
 
@@ -77,4 +78,3 @@
             
         }
     }
-?>

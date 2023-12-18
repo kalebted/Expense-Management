@@ -1,5 +1,5 @@
 <?php
-    require "Controller/Controller.php";
+    require "../Controller/Controller.php";
 ?>
 
 <!DOCTYPE html>
@@ -132,7 +132,7 @@
         <div class="content">
             <h1>Edit Expense</h1>
 
-            <form action="Controller/Controller.php" method="POST">
+            <form action="../Controller/Controller.php" method="POST">
                 <label for="id">ID:</label>
                 <input type="number" name="expense_id" id="id"><br><br>
                 <label for="amount">Amount:</label>

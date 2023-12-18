@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php 
+    //print_r(explode("/", $_GET['url']));
 
+?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
